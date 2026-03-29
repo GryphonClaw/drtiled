@@ -1,0 +1,33 @@
+{
+    "editor.minimap.renderCharacters": false,
+    "editor.fontFamily": "'Pixel Code', Menlo, Monaco, 'Courier New', monospace",
+    "editor.fontSize": 16,
+    "files.exclude": {
+        ".dragonruby": true,
+        ".solargraph.yml": true,
+        "*.code-workspace": true,
+        "CHANGE*-*.txt": true,
+        "console-logo.png": true,
+        "ctags*": true,
+        "docs": true,
+        "dragonruby": true,
+        "dragonruby-*": true,
+        "dragonruby.png": true,
+        "eula.txt": true,
+        "ffmpeg": true,
+        "font.ttf": true,
+        "include": true,
+        "mygame/open-source*.txt": true,
+        "open-source*": true,
+        "README.txt": true,
+        "run": false,
+        "samples": false,
+        "VERSION.txt": true
+    },
+    "editor.allowVariableFonts": false,
+    "editor.tabSize": 2,
+    "[ruby]": {
+        "editor.tabSize": 2
+    },
+    "rufo.exe": "/Users/GryphonClaw/.rbenv/shims/rufo"
+}

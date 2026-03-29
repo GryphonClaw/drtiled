@@ -1,0 +1,43 @@
+{
+	"folders": [
+    {
+      "path": "."
+    }
+  ],
+  "settings": {
+    "search.exclude": {
+      "**/.dragonruby": true,
+      "**/CHANGELOG-CURR.txt": true,
+      "**/CHANGELOG-PREV.txt": true,
+      "**/changelog.txt": true,
+      "**/ctags-emacs": true,
+      "**/ctags-vim": true,
+      "**/docs": true,
+      "**/dragonruby-ios-simulator.app": true,
+      "**/dragonruby-ios.app": true,
+      "**/include": true,
+      "**/logs": true,
+      "**/samples": true,
+      "**/tmp": true
+    },
+    "editor.tabSize": 2
+  },
+  "tasks": {
+    // See https://go.microsoft.com/fwlink/?LinkId=733558
+    // for the documentation about the tasks.json format
+    "version": "2.0.0",
+    "tasks": [
+      {
+        "label": "Run Game",
+        "type": "shell",
+        "command": "${workspaceRoot}/run",
+        "problemMatcher": [],
+      },
+      {
+        "label": "Kill Ruby",
+        "type": "shell",
+        "command": "killall ruby"
+      }
+    ]
+  },
+}
